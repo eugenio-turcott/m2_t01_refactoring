@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('school-bkg.jpg'); /* Establecer la imagen de fondo */
+    background-repeat: repeat-y; /* Evitar la repetición de la imagen */
+    background-size: cover; /* Ajustar el tamaño de la imagen */
+}
