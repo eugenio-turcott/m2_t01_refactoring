@@ -1,0 +1,31 @@
+GET http://localhost:3001/api/notes
+
+######
+
+GET http://localhost:3001/api/notes/1
+
+######
+
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "content": "Efraín",
+    "important": false,
+    "date": "2003-03-19"
+}
+
+######
+
+PUT http://localhost:3001/api/notes/4
+content-type: application/json
+
+{
+    "content": "Yopli2",
+    "important": false 
+}
+
+######
+
+DELETE http://localhost:3001/api/notes/1
+content-type: application/json
